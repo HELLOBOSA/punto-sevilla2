@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sevilla.puntoreforma.es/sitemap.xml
