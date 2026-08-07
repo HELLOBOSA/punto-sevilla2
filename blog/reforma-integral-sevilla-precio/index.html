@@ -648,6 +648,8 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
 .article-body p { color: var(--ink-soft); font-size: 1.08rem; margin-top: 14px; }
 .article-cta { margin-top: 54px; border-top: 1px solid var(--line); padding-top: 30px; }
 .article-cta .btn { margin-top: 26px; }
+.article-cta-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.article-cta-actions .btn{margin-top:0}
 .article-pager { margin-top: 46px; padding-top: 26px; border-top: 1px solid var(--line); display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
 .article-pager a, .article-pager span { min-height: 118px; display: flex; flex-direction: column; justify-content: space-between; padding: 20px; border: 1px solid var(--line); border-radius: 8px; background: color-mix(in oklab, var(--bg-2) 58%, transparent); }
 .article-pager small { font-family:'Space Mono',monospace; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
@@ -687,7 +689,7 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
         <button data-lang="es" aria-pressed="true">ES</button>
         <button data-lang="en" aria-pressed="false">EN</button>
       </div>
-      <a href="../../#contacto" class="btn btn-primary" style="padding:11px 22px" data-en="Contact">Contacto</a>
+      <a href="../../#leadForm" class="btn btn-primary" style="padding:11px 22px" data-en="Contact">Contacto</a>
       <button class="nav-toggle btn btn-ghost" id="navToggle" style="padding:11px 14px" aria-label="Menú" aria-expanded="false">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="7" x2="21" y2="7"/><line x1="3" y1="17" x2="21" y2="17"/></svg>
       </button>
@@ -702,7 +704,7 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
     <a href="../../#alcance" data-en="Scope">Alcance</a>
     <a href="../../#proyectos" data-en="Projects">Proyectos</a>
     <a href="../" data-en="Blog">Blog</a>
-    <a href="../../#contacto" data-en="Contact">Contacto</a>
+    <a href="../../#leadForm" data-en="Contact">Contacto</a>
   </div>
 </div>
 
@@ -757,7 +759,7 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
       <h2 data-en="Old buildings (Casco Antiguo and Triana) vs newer ones (Nervión, Sevilla Este, Bellavista)">Edificios antiguos (Casco Antiguo y Triana) frente a recientes (Nervión, Sevilla Este, Bellavista)</h2>
       <p data-en="The neighbourhood and the age of the building change the project more than people expect. Flats in the Casco Antiguo and Triana often have obsolete electrical and plumbing installations that must be fully renewed, floors and walls of rammed earth or solid brick that spring surprises when demolished, capillary damp rising from the ground, difficult access without a lift and, in many cases, heritage protection because they sit inside the Conjunto Histórico. All of this adds line items and time. By contrast, more recent flats in Nervión, Sevilla Este or Bellavista usually have sounder installations, more regular layouts and easier access, so the renovation is more predictable and tends to sit in the lower price ranges. Knowing which type of building you have is the first step to a realistic budget.">El barrio y la antigüedad del edificio cambian el proyecto más de lo que la gente espera. Los pisos del Casco Antiguo y de Triana suelen tener instalaciones eléctricas y de fontanería obsoletas que hay que renovar por completo, suelos y muros de tapial o ladrillo macizo que dan sorpresas al picar, humedades por capilaridad que ascienden desde el terreno, acceso difícil sin ascensor y, en muchos casos, protección patrimonial por estar dentro del Conjunto Histórico. Todo ello añade partidas y plazos. En cambio, los pisos más recientes de Nervión, Sevilla Este o Bellavista suelen tener instalaciones más sanas, distribuciones más regulares y accesos cómodos, por lo que la reforma es más previsible y tiende a situarse en las franjas de precio más bajas. Saber qué tipo de edificio tienes es el primer paso para un presupuesto realista.</p>
       <h2 data-en="How to read a renovation quote">Cómo leer un presupuesto de reforma</h2>
-      <p data-en="A serious quote is broken down item by item, not a single round number. Look for separate lines for demolition and debris removal, electrical installation, plumbing and drainage, climate control, carpentry, tiling and flooring, kitchen, bathrooms, painting and clean-up. Each line should state the quantity (m², units), the unit price and the material brand or model where it matters. Beware of quotes that are suspiciously cheap: they usually hide exclusions or low-grade materials. Check that VAT is stated clearly, that the payment schedule is tied to milestones rather than dates, and that there is a written guarantee. A transparent budget is the best protection against the hidden costs that appear once the work starts. You can also send us your current quote through our <a href=\"../../#contacto\">contact form</a> for a second opinion.">Un presupuesto serio está desglosado partida a partida, no es un único número redondo. Busca líneas separadas para derribo y retirada de escombro, instalación eléctrica, fontanería y desagües, climatización, carpintería, alicatado y solados, cocina, baños, pintura y limpieza final. Cada línea debe indicar la medición (m², unidades), el precio unitario y la marca o modelo del material cuando importa. Desconfía de los presupuestos sospechosamente baratos: suelen ocultar exclusiones o materiales de baja calidad. Comprueba que el IVA figura con claridad, que el calendario de pagos está ligado a hitos y no a fechas, y que existe una garantía por escrito. Un presupuesto transparente es la mejor protección frente a los costes ocultos que aparecen cuando empieza la obra. También puedes enviarnos tu presupuesto actual a través de nuestro <a href="../../#contacto">formulario de contacto</a> para una segunda opinión.</p>
+      <p data-en="A serious quote is broken down item by item, not a single round number. Look for separate lines for demolition and debris removal, electrical installation, plumbing and drainage, climate control, carpentry, tiling and flooring, kitchen, bathrooms, painting and clean-up. Each line should state the quantity (m², units), the unit price and the material brand or model where it matters. Beware of quotes that are suspiciously cheap: they usually hide exclusions or low-grade materials. Check that VAT is stated clearly, that the payment schedule is tied to milestones rather than dates, and that there is a written guarantee. A transparent budget is the best protection against the hidden costs that appear once the work starts. You can also send us your current quote through our <a href=\"../../#contacto\">contact form</a> for a second opinion.">Un presupuesto serio está desglosado partida a partida, no es un único número redondo. Busca líneas separadas para derribo y retirada de escombro, instalación eléctrica, fontanería y desagües, climatización, carpintería, alicatado y solados, cocina, baños, pintura y limpieza final. Cada línea debe indicar la medición (m², unidades), el precio unitario y la marca o modelo del material cuando importa. Desconfía de los presupuestos sospechosamente baratos: suelen ocultar exclusiones o materiales de baja calidad. Comprueba que el IVA figura con claridad, que el calendario de pagos está ligado a hitos y no a fechas, y que existe una garantía por escrito. Un presupuesto transparente es la mejor protección frente a los costes ocultos que aparecen cuando empieza la obra. También puedes enviarnos tu presupuesto actual a través de nuestro <a href="../../#leadForm">formulario de contacto</a> para una segunda opinión.</p>
       <h2 data-en="Timelines">Plazos</h2>
       <p data-en="A full renovation of a 70 to 90 m² flat usually takes between 10 and 18 weeks of on-site work, depending on the scope and the starting condition. Older flats in the Casco Antiguo or Triana with very old installations and possible heritage work sit at the upper end. On top of the build, you need to allow time for the project and the permit processing before starting, which can add several weeks. Summer in Sevilla also matters: working in July and August requires planning around the heat, and material deliveries and trades slow down around the major local festivities. A realistic schedule, agreed in writing and reviewed weekly, is worth more than an optimistic promise.">Una reforma integral de un piso de 70 a 90 m² suele tardar entre 10 y 18 semanas de obra, según el alcance y el estado inicial. Los pisos antiguos del Casco Antiguo o de Triana con instalaciones muy viejas y posibles trabajos de patrimonio se sitúan en el extremo alto. A la obra hay que sumar el tiempo de proyecto y de tramitación de permisos antes de empezar, que puede añadir varias semanas. El verano sevillano también cuenta: trabajar en julio y agosto exige planificar en torno al calor, y los plazos de entrega de materiales y de los gremios se relajan alrededor de las grandes fiestas locales. Un calendario realista, pactado por escrito y revisado cada semana, vale más que una promesa optimista.</p>
       <h2 data-en="Common exclusions and hidden costs">Exclusiones habituales y costes ocultos</h2>
@@ -796,7 +798,7 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
       <div class="article-cta">
         <h2 data-en="Ready to plan your renovation?">¿Listo para planificar tu reforma?</h2>
         <p data-en="Tell us briefly what you want to change and send a few images. We will get back to you with the next step.">Cuéntanos qué quieres cambiar y envíanos algunas fotos. Te responderemos con el siguiente paso.</p>
-        <a class="btn btn-primary" href="https://wa.me/34662411064" data-en="Send photos via WhatsApp">Enviar fotos por WhatsApp <span class="arrow">→</span></a>
+        <div class="article-cta-actions"><a class="btn btn-primary" href="../../#leadForm"><span data-en="Tell us about your project">Cuéntanos tu proyecto</span> <span class="arrow">→</span></a><a class="btn btn-ghost" href="https://wa.me/34662411064" data-en="Send photos via WhatsApp">Enviar fotos por WhatsApp</a></div>
       </div>
       <nav class="article-pager" aria-label="Navegación de artículos">
         <span><small data-en="Previous article">Artículo anterior</small><strong data-en="Start of the guide">Inicio de la guía</strong></span>
@@ -830,13 +832,14 @@ body.no-motion .hero-r .badge .pulse::after, body.no-motion .scroll-cue .ln::aft
           <li><a href="../../#alcance" data-en="Scope">Alcance</a></li>
           <li><a href="../../#proyectos" data-en="Projects">Proyectos</a></li>
           <li><a href="../" data-en="Blog">Blog</a></li>
-          <li><a href="../../#contacto" data-en="Contact">Contacto</a></li>
+          <li><a href="../../#leadForm" data-en="Contact">Contacto</a></li>
         </ul>
       </div>
       <div>
         <h4 data-en="Network">Red</h4>
         <ul>
           <li><a href="https://puntoreforma.es/ciudades/" data-en="Locations">Ubicaciones</a></li>
+          <li><a href="https://puntoreforma.es/preguntas-frecuentes/" data-en="FAQ">Preguntas frecuentes</a></li>
           <li><a href="https://puntoreforma.es/partners/" data-en="Collaborators">Colaboradores</a></li>
           <li><a href="https://puntoreforma.es/legal/" data-en="Legal notice">Aviso legal</a></li>
         </ul>
